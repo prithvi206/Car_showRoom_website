@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { Hero,CustomFilter,SearchBar, CarCard} from './components'
 import { fetchCars } from '@/utils'
 import { fuels, yearsOfProduction } from './constants';
-import { HomeProps } from "../types";
+import { HomeProps } from "./types";
 
 
 export default async function Home({ searchParams }: HomeProps) {
